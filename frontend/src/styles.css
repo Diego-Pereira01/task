@@ -1,0 +1,9 @@
+/* Usando Tailwind CSS para as diretivas */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definindo o fundo e a cor do texto */
+body {
+  @apply bg-primary text-textPrimary;
+}
